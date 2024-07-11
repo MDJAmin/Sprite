@@ -19,6 +19,7 @@
 body {
   background-color: #f5f5f5;
   font-family: "TCCC-UnityText Regular";
+  scroll-behavior: smooth;
 }
 
 #go-top {
@@ -108,6 +109,7 @@ header {
 
 .login img {
   width: 30px;
+  cursor: pointer;
 }
 
 .sprite img {

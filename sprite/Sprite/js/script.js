@@ -138,7 +138,7 @@ window.onscroll = function () {
 };
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
@@ -149,20 +149,3 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-
-// const footerEl = document.querySelectorAll(".footer-box");
-// const apiEl = document.querySelectorAll("#api");
-// const showEl = document.querySelector("#show")
-// apiEl.map(async () => {
-//   try {
-//     const res = await fetch("https://fakestoreapi.com/products");
-//     const data = await res.json();
-//     showEl.innerHRML = ` <div class="product-item">
-//     <img src=${data.image} alt="">`;
-//   } catch {
-//     err;
-//   }
-//   {
-//     alert(err);
-//   }
-// });
